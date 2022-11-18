@@ -1,0 +1,181 @@
+<% if(config.site.lang === 'en') { %>
+  <!--
+
+  Tasarım Sahibinin Linki: https://codepen.io/trashbxg/pen/YRWXrP
+  Design Owner's Link: https://codepen.io/trashbxg/pen/YRWXrP
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= config.site.title %></title>
+    <meta name="description" content="<%= config.site.description %>">
+    <link rel="icon" href="<%= config.site.icon %>" type="image/x-icon">
+    <meta name="keywords" content="<%= config.site.keywords %>">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+    <img src="<%= config.site.icon %>" class="avi"/><br />
+    <h1><%= config.bot.name %></h1>
+    <p style="margin-top:-13px;"><%= config.bot.description %></p>
+    <p style="font-size:15px;"><span><%= config.bot.prefix %>help</span></p>
+    <br />
+    <a class="btn" href="/invite" target="_blank"><i class="fab fa-discord"></i> Invite</a>
+    <a class="btn" href="/support" target="_blank"><i class="fab fa-discord"></i> Support</a>
+    <a class="btn" href="/vote" target="_blank"><i class="fas fa-vote-yea"></i> Vote</a>
+    <br /><br /><br /><br />
+    <p style="font-size:12px;"><span>Developer with <i class="fas fa-heart icon"></i> by: <%= config.developer %> </span></p>
+    </div>
+
+    <!-- Style -->
+    <style>
+      body {
+  background:#2C2F33;
+  margin:0;
+  color:#8C8C8C;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  background:#23272A;
+  padding:4px;
+}
+
+.content {
+  margin-left:auto;
+  text-align:center;
+  margin-right:auto;
+  margin-top:150px;
+}
+
+.avi {
+  border-radius:50%;
+  width:130px;
+  border: 3px solid #fff;
+}
+
+h1 {
+  color:#D98F8F;
+}
+
+.icon {
+  color:#B05D5D;
+}
+
+.btn {
+  background:#23272A;
+  padding:10px;
+  color:#8C8C8C;
+  border-radius:3px;
+  transition:.4s;
+}
+
+.btn:hover {
+  background:#D98F8F;
+  color:#fff;
+  transition:.4s;
+}
+
+a {
+  text-decoration:none;
+  color:#8C8C8C;
+}
+    </style>
+</body>
+</html>
+<% } else { %>
+  <!--
+
+  Tasarım Sahibinin Linki: https://codepen.io/trashbxg/pen/YRWXrP
+  Design Owner's Link: https://codepen.io/trashbxg/pen/YRWXrP
+
+-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= config.site.title %></title>
+    <meta name="description" content="<%= config.site.description %>">
+    <link rel="icon" href="<%= config.site.icon %>" type="image/x-icon">
+    <meta name="keywords" content="<%= config.site.keywords %>">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+    <img src="<%= config.site.icon %>" class="avi"/><br />
+    <h1><%= config.bot.name %></h1>
+    <p style="margin-top:-13px;"><%= config.bot.description %></p>
+    <p style="font-size:15px;"><span><%= config.bot.prefix %>yardım</span></p>
+    <br />
+    <a class="btn" href="/invite" target="_blank"><i class="fab fa-discord"></i> Davet</a>
+    <a class="btn" href="/support" target="_blank"><i class="fab fa-discord"></i> Destek</a>
+    <a class="btn" href="/vote" target="_blank"><i class="fas fa-vote-yea"></i> Oylama</a>
+    <br /><br /><br /><br />
+    <p style="font-size:12px;"><span>Developer with <i class="fas fa-heart icon"></i> by: <%= config.developer %> </span></p>
+    </div>
+
+    <!-- Style -->
+    <style>
+      body {
+  background:#2C2F33;
+  margin:0;
+  color:#8C8C8C;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  background:#23272A;
+  padding:4px;
+}
+
+.content {
+  margin-left:auto;
+  text-align:center;
+  margin-right:auto;
+  margin-top:150px;
+}
+
+.avi {
+  border-radius:50%;
+  width:130px;
+  border: 3px solid #fff;
+}
+
+h1 {
+  color:#D98F8F;
+}
+
+.icon {
+  color:#B05D5D;
+}
+
+.btn {
+  background:#23272A;
+  padding:10px;
+  color:#8C8C8C;
+  border-radius:3px;
+  transition:.4s;
+}
+
+.btn:hover {
+  background:#D98F8F;
+  color:#fff;
+  transition:.4s;
+}
+
+a {
+  text-decoration:none;
+  color:#8C8C8C;
+}
+    </style>
+</body>
+</html>
+<% } %>
